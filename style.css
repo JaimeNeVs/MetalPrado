@@ -270,3 +270,76 @@ footer {
     justify-content: center;
   }
 }
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  .inicio h1 {
+    font-size: 22px;
+  }
+
+  .sobre h2,
+  .servicos h2,
+  .contato h2 {
+    font-size: 22px;
+  }
+
+  .container-servicos {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .servicos-textos,
+  .servicos-imagens {
+    grid-template-columns: 1fr;
+  }
+
+  .servicos-imagens img {
+    max-height: 180px;
+  }
+
+  .card-servico img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-servico h3 {
+    font-size: 1rem;
+  }
+
+  .card-servico p {
+    font-size: 0.9rem;
+  }
+
+  .formulario-contato {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  .logos-clientes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  footer {
+    font-size: 14px;
+  }
+}
+
